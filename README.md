@@ -15,9 +15,7 @@ Official implementation of: "Video Prediction at Multiple Spatio-Temporal Scales
 
 ## Requirements
 
-To get the repository running, you will need several python packages, e.g., ```PyTorch```, ```Numpy```, or ```Matplotlib```.
-
-You can install them all easily and avoiding dependency issues by installing the ```conda``` environment file included in the repository. To do so, run the following command from the terminal:
+You can easily install all required packages and avoiding dependency issues by installing the ```conda``` environment file included in the repository. To do so, run the following command from the terminal:
 
 ```shell
 $ conda env create -f environment.yml
@@ -50,8 +48,8 @@ MSPred
 |   ├── SYNPICK/
 |   └── ...
 ├── experiments/
-|   ├── exp1/
-|   └── exp2/
+|   ├── exp_mmnist/
+|   └── exp_kth/
 ├── resources/
 |   └── ...
 ├── src/
@@ -140,10 +138,11 @@ $ CUDA_VISIBLE_DEVICES=0 python src/03_evaluate.py -d experiments/TestExp/exp_mm
 This repository is maintained by [Angel Villar-Corrales](http://angelvillarcorrales.com/templates/home.php),
 
 Please consider citing our paper if you find our work or our repository helpful.
+
 ```
 @inproceedings{villar2022MSPred,
-  title={Video Prediction at Multiple Spatio-Temporal Scales with	Hierarchical Recurrent Networks},
-  author={Villar-Corrales, Angel and Karapetyan, Ani and Boltres, Andreas and Behnke, Sve},
+  title={Video Prediction at Multiple Spatio-Temporal Scales with Hierarchical Recurrent Networks},
+  author={Villar-Corrales, Angel and Karapetyan, Ani and Boltres, Andreas and Behnke, Sven},
   booktitle={British Machine Vision Conference (BMVC)},
   year={2022}
 }
