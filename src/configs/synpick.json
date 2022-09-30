@@ -1,0 +1,89 @@
+{
+  "dataset": {
+    "dataset_name": "synpick",
+    "num_channels": 3,
+    "img_size": [
+      64,
+      112
+    ]
+  },
+  "loss": {
+    "alphas": [
+      1,
+      2,
+      0.3
+    ],
+    "beta": 0.0001,
+    "beta0": 0.00001,
+    "beta_warmup_steps": 23,
+    "reconst_losses": [
+      "mse",
+      "cross_entropy",
+      "mse"
+    ]
+  },
+  "model": {
+    "HierarchLSTM": {
+      "num_hierarch": 3,
+      "periods": [
+        1,
+        2,
+        4
+      ],
+      "hidden_dim": 128,
+      "num_layers": 4,
+      "stochastic": true,
+      "ancestral_sampling": true,
+      "aux_outputs": true
+    },
+    "LSTM": {
+      "hidden_dim": 64,
+      "num_layers": 2
+    },
+    "LSTM_Posterior": {
+      "hidden_dim": 64,
+      "latent_dim": 32,
+      "num_layers": 1
+    },
+    "LSTM_Prior": {
+      "hidden_dim": 64,
+      "latent_dim": 32,
+      "num_layers": 1
+    },
+    "enc_dec": {
+      "dim": 512,
+      "num_filters": 64,
+      "extra_deep": true
+    },
+    "model_type": "SpatioTempHierarchConvLSTM",
+    "enc_dec_type": "VGG",
+    "autoreg_mode": "LAST_PRED_FEATS",
+    "last_context_residuals": true
+  },
+  "training": {
+    "batch_size": 8,
+    "context": 9,
+    "num_preds": 5,
+    "log_frequency": 300,
+    "lr": 0.0001,
+    "lr_factor": 0.1,
+    "lr_decay_steps": [
+      250
+    ],
+    "lr_warmup_steps": 0,
+    "patience": 20,
+    "momentum": 0,
+    "nesterov": false,
+    "num_epochs": 200,
+    "num_iters": 500,
+    "optimizer": "adam",
+    "save_frequency": 20,
+    "scheduler": "warmup",
+    "tf_epochs": 0
+  },
+  "eval": {
+    "batch_size": 16,
+    "context": 9,
+    "num_preds": 5
+  }
+}

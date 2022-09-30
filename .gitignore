@@ -1,0 +1,8 @@
+
+
+experiments/*
+.ftpconfig
+.gitignore
+_test_yaml*
+checkpoint_200
+aux_make*
