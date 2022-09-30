@@ -34,14 +34,14 @@ To obtain the datasets, follow the steps:
  ./download_kth.sh $DATA_PATH
  ./convert_kth.sh $DATA_PATH
 ```
-In case the download scripts are not working, please download the KTH-Actions dataset from [this shared directory](TODO)
+In case the download scripts are not working, please download the KTH-Actions dataset from [this shared directory](https://www.dropbox.com/sh/byp2c5s1q9d4uud/AACRJLBZTjc1c3kMS5IKDMa6a?dl=0)
 
- - **SynpickVP:** You can download this dataset from [this shared directory](TODO)
+ - **SynpickVP:** You can download this dataset from [this shared directory](https://www.dropbox.com/sh/byp2c5s1q9d4uud/AACRJLBZTjc1c3kMS5IKDMa6a?dl=0)
 
 
 ## Directory Structure
 
-The following tree diagram displays the detailed directory structure of the project. Directory names and paths can be modified in the [CONFIG File](TODO).
+The following tree diagram displays the detailed directory structure of the project. Directory names and paths can be modified in the CONFIG File (`/src/CONFIG.py`).
 
 ```
 MSPred
@@ -67,11 +67,11 @@ The following table contains links to pretrained MSPred models on the MovingMNIS
 
 Additionally, we include links to training logs and Tensorboards, which show the training and validation progress of our model.
 
-| Dataset  | Model | Config | Logs |
-| ------------- | ------------- | ------------- | ------------- |
-| Moving MNIST | [checkpoint_TODO.pth](TODO) | [logs_mmnist.txt](TODO) | [tboard](TODO) |
-| KTH-Actions | [checkpoint_TODO.pth](TODO) | [logs_kth.txt](TODO) | [tboard](TODO) |
-| SynpickVP | [checkpoint_TODO.pth](TODO) | [logs_synpick.txt](TODO) | [tboard](TODO) |
+| Dataset  | Model & Config | Logs |
+| ------------- | ------------- | ------------- |
+| Moving MNIST | [Experiment](https://www.dropbox.com/sh/6euwvurae6y5j47/AACHnAYpQt8smKIKpwRqaz3Ra?dl=0) | [tboard](https://tensorboard.dev/experiment/h7YfwWyVSZy5N9nBOceyUA/#scalars) |
+| KTH-Actions | [Experiment](https://www.dropbox.com/sh/qho15xgljhvzcta/AAAINQIv9hnp9TqJsS2zM57da?dl=0) | [tboard](https://tensorboard.dev/experiment/5aOLm5J4TgWnkZHzn0vNRw/#scalars) |
+| SynpickVP | [Experiment](https://www.dropbox.com/sh/80yq2off5f0o25f/AADpQbu731yv8A94LiYQWRkpa?dl=0)  | [tboard](https://tensorboard.dev/experiment/M9GfRex7Qs6DYc3XeV06iA/#scalars) |
 
 
 ## Quick Guide
