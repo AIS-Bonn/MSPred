@@ -1,7 +1,9 @@
 # Multi-Scale Hierarchical Video Prediction
 
 
-Official implementation of: "Video Prediction at Multiple Spatio-Temporal Scales with	Hierarchical Recurrent Networks" by Villar-Corrales et al.
+Official implementation of: **"Video Prediction at Multiple Spatio-Temporal Scales with	Hierarchical Recurrent Networks"** by Villar-Corrales et al. [[Paper]](http://www.angelvillarcorrales.com/templates/others/Publications/MSPred_BMVC_2022.pdf)  [[Project]](https://sites.google.com/view/mspred/home)
+
+
 
 
 ## Contents
@@ -10,7 +12,7 @@ Official implementation of: "Video Prediction at Multiple Spatio-Temporal Scales
  * [2. Directory Structure](#directory-structure)
  * [3. Models](#models)
  * [4. Quick Guide](#quick-guide)
- * [5. Contact](#contact)
+ * [5. Contact and Citation](#contact-and-citation)
 
 
 ## Requirements
@@ -133,7 +135,7 @@ $ CUDA_VISIBLE_DEVICES=0 python src/03_evaluate.py -d experiments/TestExp/exp_mm
 ```
 
 
-## Contact
+## Contact and Citation
 
 This repository is maintained by [Angel Villar-Corrales](http://angelvillarcorrales.com/templates/home.php),
 

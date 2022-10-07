@@ -107,6 +107,7 @@ class FigGenerator:
                 only_model=True
             )
         self.model = model.eval().to(self.device)
+        self.model = self.model.train()
         return
 
     @torch.no_grad()
