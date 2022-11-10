@@ -143,7 +143,7 @@ Please consider citing our paper if you find our work or our repository helpful.
 
 ```
 @inproceedings{villar2022MSPred,
-  title={Video Prediction at Multiple Spatio-Temporal Scales with Hierarchical Recurrent Networks},
+  title={MSPred: Video Prediction at Multiple Spatio-Temporal Scales with Hierarchical Recurrent Networks},
   author={Villar-Corrales, Angel and Karapetyan, Ani and Boltres, Andreas and Behnke, Sven},
   booktitle={British Machine Vision Conference (BMVC)},
   year={2022}
