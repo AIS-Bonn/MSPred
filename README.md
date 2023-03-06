@@ -1,9 +1,7 @@
 # Multi-Scale Hierarchical Video Prediction
 
 
-Official implementation of: **"Video Prediction at Multiple Spatio-Temporal Scales with	Hierarchical Recurrent Networks"** by Villar-Corrales et al. [[Paper]](http://www.angelvillarcorrales.com/templates/others/Publications/MSPred_BMVC_2022.pdf)  [[Project]](https://sites.google.com/view/mspred/home)
-
-
+Official implementation of: **"Video Prediction at Multiple Spatio-Temporal Scales with	Hierarchical Recurrent Networks"** by Villar-Corrales et al. [[Paper]](http://www.angelvillarcorrales.com/templates/others/Publications/2022_MSPred_BMVC.pdf)  [[Project]](https://sites.google.com/view/mspred/home)
 
 
 ## Contents
